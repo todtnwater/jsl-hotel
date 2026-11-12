@@ -1,0 +1,12 @@
+# build output
+build/
+
+# backups (contain old secrets)
+*.bak
+
+# backup page that contains a secret key
+src/main/webapp/payment/payment_backup.jsp
+
+# secrets
+*.env
+*.properties.local
